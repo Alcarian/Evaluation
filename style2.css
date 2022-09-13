@@ -1,0 +1,63 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.page {
+    margin: 20px 80px;
+}
+
+/* Barre de navigation*/
+
+
+
+/*full screen
+@media screen and (min-width:1200px) {
+    
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        background-color: black;
+        padding: 10px 0px;
+    }
+
+    nav .tabs{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    nav .tabs a{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    nav .buttons button{
+        padding: 13px 20px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+    nav .buttons .login{
+        color: grey;
+        background-color: inherit;
+        margin-right: 10px;
+    }
+
+    nav .buttons .register{
+        background-color: inherit;
+        margin-right: 10px;
+        color: white;
+    }
+}
+full screen*/
+
+/* Fin de barre de navigation*/
