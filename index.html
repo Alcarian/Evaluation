@@ -13,6 +13,9 @@
         crossorigin="anonymous">
     <link 
         rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link 
+        rel="stylesheet" 
         href="style2.css">
     <title>Ambro'Lan</title>
 </head>
@@ -94,23 +97,64 @@
             <p>Ces manifestations se déroulent sur tout un week-end en commençant dès le vendredi jusqu'au dimanche soir.
               Lors de ces évènements, nous jouons à plusieurs jeux en réseau avec un système de point et un classement final. Nous avons aussi divers prix en récompense pour les meilleurs d'entre nous.
             </p>
-            <p>Alors n'hésitez pas à nous contacter pour participer et vous mesurez aux meilleurs.
+            <p>Alors n'hésitez pas à nous contacter pour participer et vous mesurer aux meilleurs.
             </p>
           </article>
           <article class="article">
             <h2>Lan Evènement:</h2>
             <h3>Lanparty du mois de Novembre 2022:</h3>
-            <p>Notre 2ème Lanparty de l'année se déroulera le week-end du 11 au 13 novembre inclus. Pour plus d'infos et les inscriptions c'est ici :
+            <p>Notre 2ème Lanparty de l'année se déroulera le week-end du 11 au 13 novembre 2022 inclus. Pour plus d'infos et les inscriptions c'est ici :
             </p>
+            <button class="button-signIn" id="signIn" type="button">Info et Inscriptions</button>
           </article>
           <article class="article">
             <h2>Devenir membre:</h2>
-            <p>Pour devenir un membre officiel d'Ambro'Lan, et aider à organiser ces week-end de geek, c'est très simple, il suffit de remplir ce petit questionnaire et attendre la validation par un membre du bureau:
+            <p>Pour devenir un membre officiel d'Ambro'Lan, et aider à organiser ces week-end de geek, c'est très simple, il suffit de remplir ce petit formulaire et attendre la validation par un membre du bureau:
             </p>
           </article>
+          <!--Start form-->
+          <div>
+            <form class="form-horizontal" method="post" action="contact.php">
+                <h1 class="section-header">Devenir membre d'Ambro'Lan</h1>
+              <label for="name">Nom</label>
+              <input type="text" id="name" placeholder="Nom" name="name" required>
+
+              <label for="forename">Prénom</label>
+              <input type="text" id="forename" placeholder="Prénom" name="forename" required>
+
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" placeholder="0601020304" name="phone">
+
+              <label for="nickname">Pseudo</label>
+              <input type="text" id="nickname" placeholder="Ecrire votre pseudo" name="nickname">
+
+              <label for="message">Message</label>
+              <textarea rows="10" id="message" name="message" required></textarea>
+
+              <button class="send-button" id="submit" type="submit">Envoyer</button>
+            </form>
+          </div>
+          <!--End form-->
         </main>
         <!--End main-->
     </section>
+    <!--Start footer-->
+    <footer class="text-center footer-page my-2">
+      <div class="pb-2">
+        <a title="facebook" href="https://es-la.facebook.com/ambrolan01/" target="_blank">
+          <button class="me-2 btn btn-outline-primary btn-social-share">
+            <i class="bi bi-facebook"></i>
+          </button></a>
+        <a title="instagram" href="https://www.instagram.com/ambrolan/?hl=fr" target="_blank">
+          <button class="me-2 btn btn-outline-primary btn-social-share">
+            <i class="bi bi-instagram"></i>
+          </button></a>
+      </div>
+      <div class="text-secondary">
+        <p>2022© Association Ambro'Lan, édité par Alcarian</p>
+      </div>
+    </footer>
+    <!--End footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
             integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
             crossorigin="anonymous"></script>
