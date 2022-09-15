@@ -134,6 +134,11 @@ label {
     letter-spacing: 2px;
 }
 
+.send-button-center {
+    display: flex;
+    justify-content: center;
+}
+
 .send-button:hover {
     cursor: pointer;
     color: white;
