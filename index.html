@@ -47,13 +47,13 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Présentation</a>
+                      <a class="nav-link active" aria-current="page" href="#Presentation">Présentation</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="2ème essai\Evenement.html">Lan Evènement</a>
+                      <a class="nav-link" href="#Lan-event">Lan Evènement</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Devenir membre</a>
+                      <a class="nav-link" href="#Member">Devenir membre</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,10 +71,6 @@
                       </ul>
                     </li>
                   </ul>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
-                  </form>
                 </div>
               </div>
             </div>
@@ -83,7 +79,7 @@
         <!--Start header-->
         <header>
           <div>
-            <h1>Ambro'Lan</h1>
+            <h1 id="Presentation">Ambro'Lan</h1>
           </div>
         </header>
         <!--End header-->
@@ -101,14 +97,16 @@
             </p>
           </article>
           <article class="article">
-            <h2>Lan Evènement:</h2>
+            <h2 id="Lan-event">Lan Evènement:</h2>
             <h3>Lanparty du mois de Novembre 2022:</h3>
             <p>Notre 2ème Lanparty de l'année se déroulera le week-end du 11 au 13 novembre 2022 inclus. Pour plus d'infos et les inscriptions c'est ici :
             </p>
-            <button class="button-signIn" id="signIn" type="button">Info et Inscriptions</button>
           </article>
+            <div class="info">
+              <button class="button-signIn" id="signIn" type="button"><a href="Evenement.html">Infos et inscritpion</a></button>
+            </div>
           <article class="article">
-            <h2>Devenir membre:</h2>
+            <h2 id="Member">Devenir membre:</h2>
             <p>Pour devenir un membre officiel d'Ambro'Lan, et aider à organiser ces week-end de geek, c'est très simple, il suffit de remplir ce petit formulaire et attendre la validation par un membre du bureau:
             </p>
           </article>

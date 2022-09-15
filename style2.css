@@ -11,11 +11,11 @@ body {
 }
 
 /*Start navbar*/
-.navbar{
+.navbar {
     position: sticky;
 }
 
-#logo{
+#logo {
     background: url(téléchargement.jpg) no-repeat 50% 50%;
     background-size: cover;
     width: 80px;
@@ -25,7 +25,7 @@ body {
 /*End navbar*/
 
 /*Start Header*/
-header{
+header {
     margin-top: 40px;
     background-image: url(https://cdn.pocket-lint.com/r/s/1201x/assets/images/160963-games-news-pc-gaming-week-in-association-with-nvidia-geforce-rtx-coming-soon-image1-zzvlqgryam.jpg);
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ header{
     background-size: 300px 280px;
 }
 
-header h1{
+header h1 {
     text-align: center;
     padding: 30px;
     font-size: 45px;
@@ -42,17 +42,33 @@ header h1{
 /*End Header*/
 
 /*Start main*/
-.article{
+.article {
     text-align: justify;
 }
 
-h2{
+h2 {
     color: aqua;
 }
 
 h3 {
     font-size: 20px;
     color: red;
+}
+
+.button-signIn {
+    -webkit-box-shadow: 0px 0px 36px -7px rgba(171,171,171,1);
+    -moz-box-shadow: 0px 0px 36px -7px rgba(171,171,171,1);
+    box-shadow: 0px 0px 36px -7px rgba(171,171,171,1);
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
 }
 
 /*Start form*/
@@ -65,6 +81,7 @@ form {
     box-shadow: 0px 0px 36px -7px rgba(171,171,171,1);
     border-radius: 20px;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 input, textarea, select {
