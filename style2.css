@@ -25,7 +25,7 @@ body {
 /*End navbar*/
 
 /*Start Header*/
-header {
+.header {
     margin-top: 40px;
     background-image: url(https://cdn.pocket-lint.com/r/s/1201x/assets/images/160963-games-news-pc-gaming-week-in-association-with-nvidia-geforce-rtx-coming-soon-image1-zzvlqgryam.jpg);
     background-repeat: no-repeat;
@@ -33,17 +33,37 @@ header {
     background-size: 300px 280px;
 }
 
-header h1 {
+.header-event {
+    margin-top: 40px;
+    background-image: url(https://www.config-gamer.fr/media/k2/items/cache/7f10867ef89addd3e31fdefbd0e6e35d_XL.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 280px;
+}
+
+.header h1 {
     text-align: center;
     padding: 30px;
     font-size: 45px;
     word-wrap: normal;
 }
+
+.header-event h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    word-wrap: normal;
+}
+
 /*End Header*/
 
 /*Start main*/
 .article {
     text-align: justify;
+}
+
+h2, h3, .article {
+    text-align: center;
 }
 
 h2 {
@@ -163,3 +183,35 @@ footer {
 }
 
 /*End footer*/
+/*Start media queries*/
+
+@media screen and (min-width: 500px) {
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header {
+        background-size: 100%;
+    }
+
+    .header-event {
+        background-size: 80%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    body {
+        font-size: 20px;
+    }
+
+    .header h1 {
+        font-size: 70px;
+    }
+
+    .header-event h1 {
+        font-size: 70px;
+    }
+}
+
+/*End media queries*/
