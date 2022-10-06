@@ -22,6 +22,11 @@ body {
     height: 80px;
     border-radius: 50%;
 }
+
+.show-nav {
+    transform: translateX(100%);
+}
+
 /*End navbar*/
 
 /*Start Header*/
